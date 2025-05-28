@@ -306,7 +306,7 @@ namespace OffSyncPasswordManager
                 else
                 {
                     disableKeywordTrigger = true;
-                    UsernameFilter.SelectedItem = "[keyword]";
+                    UsernameFilter.SelectedItem = "[all]";
                     keywordFilter = filter;
                     FilterCredentials();
                     Settings[1] = "defFilter=" + keywordFilter;
