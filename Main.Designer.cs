@@ -81,7 +81,7 @@ namespace OffSyncPasswordManager
             // EncryptButton
             // 
             EncryptButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-            EncryptButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            EncryptButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             EncryptButton.Location = new System.Drawing.Point(389, 158);
             EncryptButton.Name = "EncryptButton";
             EncryptButton.Size = new System.Drawing.Size(42, 31);
@@ -114,7 +114,6 @@ namespace OffSyncPasswordManager
             // 
             CredDescriptions.Dock = System.Windows.Forms.DockStyle.Fill;
             CredDescriptions.FormattingEnabled = true;
-            CredDescriptions.ItemHeight = 15;
             CredDescriptions.Location = new System.Drawing.Point(0, 0);
             CredDescriptions.Name = "CredDescriptions";
             CredDescriptions.Size = new System.Drawing.Size(184, 199);
@@ -233,20 +232,20 @@ namespace OffSyncPasswordManager
             // 
             helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { aboutToolStripMenuItem, checkForUpdatesToolStripMenuItem });
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            helpToolStripMenuItem.Text = "Help";
+            helpToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            helpToolStripMenuItem.Text = "About";
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             aboutToolStripMenuItem.Text = "About...";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
             // checkForUpdatesToolStripMenuItem
             // 
             checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
-            checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
             checkForUpdatesToolStripMenuItem.Visible = false;
             checkForUpdatesToolStripMenuItem.Click += checkForUpdatesToolStripMenuItem_Click;
@@ -289,7 +288,6 @@ namespace OffSyncPasswordManager
             // 
             Usernames.Dock = System.Windows.Forms.DockStyle.Fill;
             Usernames.FormattingEnabled = true;
-            Usernames.ItemHeight = 15;
             Usernames.Location = new System.Drawing.Point(0, 0);
             Usernames.Name = "Usernames";
             Usernames.Size = new System.Drawing.Size(247, 199);
@@ -322,7 +320,7 @@ namespace OffSyncPasswordManager
             label2.AutoSize = true;
             label2.Location = new System.Drawing.Point(223, 19);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(68, 15);
+            label2.Size = new System.Drawing.Size(69, 15);
             label2.TabIndex = 18;
             label2.Text = "String Type:";
             // 
@@ -356,7 +354,7 @@ namespace OffSyncPasswordManager
             // 
             // ViewPasswordButton
             // 
-            ViewPasswordButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            ViewPasswordButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             ViewPasswordButton.Location = new System.Drawing.Point(389, 93);
             ViewPasswordButton.Name = "ViewPasswordButton";
             ViewPasswordButton.Size = new System.Drawing.Size(42, 23);
